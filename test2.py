@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/train', methods=['POST'])
+@app.route('/')
 def train():
     return'Training completed successfully'
 
